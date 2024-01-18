@@ -1,0 +1,95 @@
+.nav h3 {
+   font-size: 100% !important;
+}
+.img {
+   width: 40% !important;
+}
+.label {
+   width: 100% !important;
+}
+.section {
+   width: 100% !important ;
+   height: 90vh !important;
+   overflow: hidden;
+   overflow-y: scroll;
+   background-color: #00a88610 !important;
+}
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+   .nav {
+      height: 10vh !important;
+      overflow: hidden !important;
+      text-align: center !important;
+      align-content: center !important;
+      align-items: center !important;
+   }
+   .nav h3 {
+      font-size: 120% !important;
+      width: 100%;
+   }
+   .img {
+      width: 0% !important;
+   }
+   .label {
+      width: 20% !important;
+      display: none;
+   }
+}
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+   .nav {
+      height: 10vh !important;
+      overflow: hidden !important;
+      text-align: center !important;
+   }
+   .nav h3 {
+      font-size: 50% !important;
+   }
+   .img {
+      width: 0% !important;
+   }
+   .label {
+      width: 0% !important;
+      display: none;
+   }
+}
+/* For Mobile Portrait View */
+@media screen and (min-device-width: 480px) and (orientation: portrait) {
+   .nav {
+      height: 10vh !important;
+      overflow: hidden !important;
+      text-align: center !important;
+   }
+   .nav h3 {
+      width: 100%;
+      padding: 0 !important;
+      margin: 0 !important;
+   }
+   .img {
+      width: 0% !important;
+   }
+   .label {
+      width: 0% !important;
+      display: none;
+   }
+}
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+   .nav {
+      height: 10vh !important;
+      overflow: hidden !important;
+      text-align: center !important;
+   }
+   .nav h3 {
+      width: 100%;
+      padding: 0 !important;
+      margin: 0 !important;
+   }
+   .img {
+      width: 0% !important;
+   }
+   .label {
+      width: 0% !important;
+      display: none;
+   }
+}

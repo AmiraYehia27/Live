@@ -1,0 +1,19 @@
+.subButton {
+   background-color: #dc3545;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+   color: white;
+   padding-right: 3rem;
+   padding-left: 3rem;
+   padding-top: 0.375rem;
+   padding-bottom: 0.375rem;
+   border: 0;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.subButton:hover {
+   background-color: #d40e22;
+}
+.subButton:disabled,
+.subButton:disabled:hover {
+   background-color: #dc35467a;
+}

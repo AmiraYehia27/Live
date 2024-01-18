@@ -1,0 +1,210 @@
+.MuiDataGrid-root.MuiDataGrid-root--densityStandard.MuiDataGrid-withBorderColor.css-ptkaw2-MuiDataGrid-root {
+    font-size: 12px;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MuiTablePagination-toolbar.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar {
+    font-size: 12px;
+
+}
+
+.MuiTablePagination-displayedRows.css-levciy-MuiTablePagination-displayedRows {
+    margin: 0;
+    font-size: 12px;
+
+
+}
+
+.MuiTablePagination-selectLabel.css-pdct74-MuiTablePagination-selectLabel {
+    margin: 0;
+    font-size: 12px;
+
+}
+
+
+
+
+.PrivateSwitchBase-input.css-1m9pwf3 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+input[type="checkbox"]:before {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: block;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.css-ptkaw2-MuiDataGrid-root .MuiDataGrid-row.Mui-selected {
+    background-color: rgba(0, 168, 134, 0.226) !important;
+}
+
+/* pop up form  */
+.css-1t5wrdm-MuiDataGrid-filterForm {
+    display: flex;
+    /* width: 80%; */
+    justify-content: space-between;
+
+}
+
+.css-1t5wrdm-MuiDataGrid-filterForm input {
+    outline: none;
+    border: none !important;
+    background-color: white !important;
+    font-size: 12px !important;
+    padding-left: 20px !important;
+    color: black !important;
+    outline: none !important;
+    transition: all 2 ease-in-out;
+
+}
+
+.css-1t5wrdm-MuiDataGrid-filterForm select {
+    outline: none;
+    border: none !important;
+    background-color: white !important;
+    font-size: 12px !important;
+    color: black !important;
+    outline: none !important;
+    transition: all 2 ease-in-out;
+    padding: 5px 5px !important;
+}
+
+.css-1t5wrdm-MuiDataGrid-filterForm input:focus,
+.css-1t5wrdm-MuiDataGrid-filterForm select:focus {
+    border: none !important;
+    /* border-radius: 20px; */
+    transition: all 2 ease-in-out;
+}
+
+.css-q68e8e-MuiFormControl-root-MuiDataGrid-filterFormColumnInput,
+.css-17vwkjt-MuiFormControl-root-MuiDataGrid-filterFormOperatorInput,
+.css-1h08ml-MuiFormControl-root-MuiDataGrid-filterFormValueInput {
+    border: none;
+    flex-basis: 30%;
+    flex-wrap: wrap;
+
+
+}
+
+.css-1dmqq7i-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input.css-1dmqq7i-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input.css-1dmqq7i-MuiNativeSelect-select-MuiInputBase-input-MuiInput-input {
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: row;
+    position: relative;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: none
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    display: none !important;
+}
+
+.css-t89xny-MuiDataGrid-columnHeaderTitle {
+    font-style: italic;
+}
+
+input#react-select-3-input {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.css-b62m3t-container {
+    width: 100%;
+}
+
+.css-13cymwt-control:hover {
+    border-color: none;
+}
+
+.css-t3ipsp-control:hover {
+    border-color: rgb(0, 168, 134) !important;
+    outline: none;
+}
+
+.css-t3ipsp-control {
+    box-shadow: none !important;
+}
+
+.css-1nmdiq5-menu div div:hover {
+    background-color: rgba(0, 168, 134, 0.87) !important;
+    color: white !important;
+
+}
+
+.css-b62m3t-container:hover .css-t3ipsp-control {
+    border-color: rgb(0, 168, 134) !important;
+
+}
+
+.css-t3ipsp-control {
+    border-color: rgb(0, 168, 134) !important;
+}
+
+.frame-container {
+    background-image: url('../public/images/pexels-ella-olsson-1640773.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frame-container .layer {
+    width: 111%;
+    height: 100%;
+    background-color: black;
+    left: -150px;
+}
+
+.select_container {
+    z-index: 99999;
+}
+
+nav {
+    z-index: 9999;
+}
+
+.z-high {
+    z-index: 1;
+}
+
+.opacity-90 {
+    opacity: 90%;
+}
+
+.MuiDataGrid-toolbarContainer.css-128fb87-MuiDataGrid-toolbarContainer button {
+    color: black;
+    font-weight: bold;
+}
+
+.bg-gray {
+    background-color: #d0cfcfa1
+}
+
+
+
+input[type="file"] {
+    width: 100% ;
+    color: white;
+    background-color: rgba(0, 168, 134, 0.331);
+    border-radius: 5px;
+}
+
+input::file-selector-button {
+border: none;  
+padding: 7px ; 
+color: white;
+background-color: rgba(0, 168, 134, 0.559);
+}
+.cursor{
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.mainButton {
+   background-color: #00a886;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;
+   color: white;
+   padding-right: 3rem;
+   padding-left: 3rem;
+   padding-top: 0.375rem;
+   padding-bottom: 0.375rem;
+   border: 0;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.mainButton:hover {
+   background-color: #067e66fb;
+}
+.mainButton:disabled,
+.mainButton:disabled:hover {
+   background-color: #00a88681;
+}
